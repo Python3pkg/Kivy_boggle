@@ -45,7 +45,7 @@ class MenuScreen(GridLayout):
         self.grid = None
 
     def get_font(self, button, text):
-        print("Button size is: %s" % button.size)
+        print(("Button size is: %s" % button.size))
 
     def reset_callback(self, widget=None):
         logging.info("Reset Game Button Callback.")
